@@ -1,0 +1,17 @@
+﻿<Window x:Class="StepInIT.manager"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StepInIT"
+        mc:Ignorable="d"
+        Title="manager" Height="450" Width="800">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" TextAlignment="Center" Margin="46,88,0,0" FontSize="25" Text="Статистика" VerticalAlignment="center" Height="311" Width="389"/>
+        <Button Content="зарегистрировать нового пользователя" HorizontalAlignment="Left" Margin="516,135,0,0" VerticalAlignment="Top" Height="45" Width="233"/>
+        <Button Content="назначить предметы и группы" HorizontalAlignment="Left" Margin="516,217,0,0" VerticalAlignment="Top"  Height="45" Width="233"/>
+        <Button Content="добавить отзыв" HorizontalAlignment="Left" Margin="516,309,0,0" VerticalAlignment="Top"  Height="45" Width="233"/>
+        <Label Content="окно менеджера" FontSize="30" HorizontalAlignment="Center" Margin="0,27,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

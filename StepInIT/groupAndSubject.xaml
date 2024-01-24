@@ -1,0 +1,23 @@
+﻿<Window x:Class="StepInIT.groupAndSubject"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StepInIT"
+        mc:Ignorable="d"
+        Title="groupAndSubject" Height="450" Width="800">
+    <Grid>
+        <Label Content="дата" HorizontalAlignment="Left" Margin="110,147,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="241,152,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <Label Content="предмет" HorizontalAlignment="Left" Margin="110,186,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="241,191,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <Label Content="группа" HorizontalAlignment="Left" Margin="110,114,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="241,119,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="467,55,0,0" TextWrapping="Wrap" Text="Расписание" VerticalAlignment="Top" Width="305" Height="219"/>
+        <Button Content="группы" IsEnabled="False" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-5,414,0,0"/>
+        <Button Content="преподаватели" IsEnabled="True" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="39,414,0,0"/>
+        <Button Content="Сохранить" HorizontalAlignment="Center" Margin="0,350,0,0" VerticalAlignment="Top" Height="30" Width="132"/>
+        <Button Content="назад" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="91"/>
+
+    </Grid>
+</Window>
